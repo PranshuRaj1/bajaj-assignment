@@ -1,0 +1,25 @@
+# ------------------------------------
+# Standard Java/Maven Files to Ignore
+# ------------------------------------
+# Maven temporary directories
+/target/
+# Log files
+*.log
+*.Log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# ------------------------------------
+# IDE/OS Specific Files to Ignore
+# ------------------------------------
+.idea/
+
+# VS Code files 
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
