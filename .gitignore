@@ -1,8 +1,12 @@
 # ------------------------------------
 # Standard Java/Maven Files to Ignore
 # ------------------------------------
-# Maven temporary directories
-/target/
+# Ignore everything in target/
+/target/*
+
+# Exception to track the final JAR
+!/target/*.jar
+
 # Log files
 *.log
 *.Log
