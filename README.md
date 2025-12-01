@@ -17,7 +17,7 @@ This is a Spring Boot application built for the Bajaj HealthRx assignment. It au
 
 2.  **Build the project:**
     ```bash
-    mvn clean package -DskipTests
+    mvn clean install
     ```
 
 ## How to Run
@@ -39,3 +39,9 @@ java -jar target/assignment-0.0.1-SNAPSHOT.jar
 - The application automatically sends a POST request on startup to generate a webhook.
 - It then submits the pre-defined SQL solution to the received webhook URL.
 - Ensure you have an active internet connection when running the app.
+
+## JAR LINK 
+```bash
+https://github.com/PranshuRaj1/bajaj-assignment/raw/refs/heads/main/target/assignment-0.0.1-SNAPSHOT.jar
+```
+
